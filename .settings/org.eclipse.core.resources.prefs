@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//com/workspace/project01/actions/AbstractPage.py=utf-8
+encoding//com/workspace/project01/actions/Common.py=utf-8
+encoding//com/workspace/project01/actions/FactoryPage.py=utf-8
+encoding//com/workspace/project01/modules/Config.py=utf-8
+encoding//tests/test_nonascii.py=utf-8
+encoding//tests/test_xml.py=utf-8
