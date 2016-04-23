@@ -1,0 +1,50 @@
+{
+  "uid" : "50c8ca2afe76f688",
+  "name" : "test_fail",
+  "title" : "Test fail",
+  "time" : {
+    "start" : 1460649646776,
+    "stop" : 1460649646783,
+    "duration" : 7
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "def test_fail():\n        u'Этот тест падает'\n    \n>       assert False\nE       assert False\n\ntests\\test_nonascii.py:32: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThis module contains basic examples of tests\n\r\nЭтот тест падает",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "334814554b6ec994",
+    "name" : "suite2.test_demo",
+    "title" : "Test demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "2628-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "suite2.test_demo"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

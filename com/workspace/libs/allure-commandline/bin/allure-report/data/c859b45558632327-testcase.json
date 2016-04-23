@@ -1,0 +1,56 @@
+{
+  "uid" : "c859b45558632327",
+  "name" : "TestClass.test_skip",
+  "title" : "Test skip",
+  "time" : {
+    "start" : 1460649154426,
+    "stop" : 1460649154428,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Skipped: for a reason!",
+    "stackTrace" : ""
+  },
+  "description" : {
+    "value" : "\nУ этого модуля, как и у его тестов, кириллические описания, данные в юникоде\n\nCreated on Oct 19, 2013\n\n@author: pupssman\n\r\nthis test is skipped",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "CANCELED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "640b5fa5432331aa",
+    "name" : "tests.test_nonascii",
+    "title" : "Test nonascii"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Feature1"
+  }, {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_nonascii"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8188-MainThread"
+  } ],
+  "parameters" : [ ]
+}

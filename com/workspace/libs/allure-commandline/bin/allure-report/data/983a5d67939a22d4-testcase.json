@@ -1,0 +1,41 @@
+{
+  "uid" : "983a5d67939a22d4",
+  "name" : "UnknownTestCase",
+  "title" : "Unknown test case",
+  "time" : {
+    "start" : 1460562489347,
+    "stop" : 1460562489347,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "failed",
+    "stackTrace" : "tests\\test_utils.py:4: in <module>\n    from hamcrest import assert_that, only_contains, equal_to\nE   ImportError: No module named hamcrest"
+  },
+  "description" : {
+    "value" : "This is the tests collection phase. Failures are modules that failed to collect.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c11d08cc0133d452",
+    "name" : "test_collection_phase",
+    "title" : "Collection phase"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Collection phase"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_collection_phase"
+  } ],
+  "parameters" : [ ]
+}

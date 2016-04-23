@@ -1,0 +1,95 @@
+{
+  "uid" : "7a4c65590f360f9b",
+  "name" : "test_nested_steps[False]",
+  "title" : "Test nested steps [False]",
+  "time" : {
+    "start" : 1460636657241,
+    "stop" : 1460636657248,
+    "duration" : 7
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "fail = False\n\n    @pytest.mark.parametrize('fail', [True, False])\n    def test_nested_steps(fail):\n        \"\"\"\n        has three nested steps\n        \"\"\"\n        with pytest.allure.step('First step'):  # @UndefinedVariable\n            with pytest.allure.step('Second step'):  # @UndefinedVariable\n                with pytest.allure.step('Third step'):  # @UndefinedVariable\n>                   assert fail\nE                   assert False\n\ndemo\\test_steps.py:32: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThese tests show some attachment examples\n\nCreated on Oct 18, 2013\n\n@author: pupssman\n\r\n\n    has three nested steps\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3f0574f19f3008de",
+    "name" : "demo.test_attaches",
+    "title" : "Test attaches"
+  },
+  "steps" : [ {
+    "name" : "First step",
+    "title" : "First step",
+    "time" : {
+      "start" : 1460636657242,
+      "stop" : 1460636657242,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "Second step",
+      "title" : "Second step",
+      "time" : {
+        "start" : 1460636657242,
+        "stop" : 1460636657242,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 1
+      },
+      "status" : "FAILED",
+      "attachments" : [ ],
+      "steps" : [ {
+        "name" : "Third step",
+        "title" : "Third step",
+        "time" : {
+          "start" : 1460636657242,
+          "stop" : 1460636657242,
+          "duration" : 0
+        },
+        "summary" : {
+          "attachments" : 0,
+          "steps" : 0
+        },
+        "status" : "FAILED",
+        "attachments" : [ ],
+        "steps" : [ ]
+      } ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo.test_attaches"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7400-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

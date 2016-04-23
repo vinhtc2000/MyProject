@@ -1,0 +1,86 @@
+{
+  "uid" : "13290b4e1351a370",
+  "name" : "test_inline_step[False]",
+  "title" : "Test inline step [False]",
+  "time" : {
+    "start" : 1460636772807,
+    "stop" : 1460636772815,
+    "duration" : 8
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "fail = False\n\n    @pytest.mark.parametrize('fail', [True, False])\n    def test_inline_step(fail):\n        \"\"\"\n        has two steps right iside of it\n        \"\"\"\n        with pytest.allure.step('First step'):  # @UndefinedVariable\n            print 'OLOLO in first step'\n    \n        with pytest.allure.step('Second step that fails'):  # @UndefinedVariable\n>           assert fail\nE           assert False\n\ndemo\\test_steps.py:21: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThese tests show some attachment examples\n\nCreated on Oct 18, 2013\n\n@author: pupssman\n\r\n\n    has two steps right iside of it\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "42874e6ddbdbb0b3",
+    "name" : "demo.test_attaches",
+    "title" : "Test attaches"
+  },
+  "steps" : [ {
+    "name" : "First step",
+    "title" : "First step",
+    "time" : {
+      "start" : 1460636772809,
+      "stop" : 1460636772809,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Second step that fails",
+    "title" : "Second step that fails",
+    "time" : {
+      "start" : 1460636772809,
+      "stop" : 1460636772809,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "9cab8858-2619-4f3f-bd63-12f822b2732d-attachment.txt",
+    "type" : "text/plain",
+    "size" : 20,
+    "uid" : "d1278b91a76e447c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo.test_attaches"
+  }, {
+    "name" : "thread",
+    "value" : "7556-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

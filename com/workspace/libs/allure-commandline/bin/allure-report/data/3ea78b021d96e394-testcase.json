@@ -1,0 +1,59 @@
+{
+  "uid" : "3ea78b021d96e394",
+  "name" : "Test_login_BU.test_tc001",
+  "title" : "Test tc 001",
+  "time" : {
+    "start" : 1461242778610,
+    "stop" : 1461242789599,
+    "duration" : 10989
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "41259410ad3ece9c",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "my attach",
+    "source" : "6656479d-fb61-404d-9097-cbe7805d89c8-attachment.txt",
+    "type" : "text/plain",
+    "size" : 12,
+    "uid" : "5b2bd005635ba00d"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "6260-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

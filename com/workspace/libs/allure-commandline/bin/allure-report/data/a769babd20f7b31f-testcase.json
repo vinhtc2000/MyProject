@@ -1,0 +1,47 @@
+{
+  "uid" : "a769babd20f7b31f",
+  "name" : "test_critical[4]",
+  "title" : "Test critical [4]",
+  "time" : {
+    "start" : 1460636772781,
+    "stop" : 1460636772784,
+    "duration" : 3
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nThese tests show some attachment examples\n\nCreated on Oct 18, 2013\n\n@author: pupssman\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "42874e6ddbdbb0b3",
+    "name" : "demo.test_attaches",
+    "title" : "Test attaches"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo.test_attaches"
+  }, {
+    "name" : "thread",
+    "value" : "7556-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

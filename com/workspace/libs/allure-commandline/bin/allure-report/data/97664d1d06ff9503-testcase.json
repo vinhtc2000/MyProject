@@ -1,0 +1,53 @@
+{
+  "uid" : "97664d1d06ff9503",
+  "name" : "TestClass.test_pytest_expansion",
+  "title" : "Test pytest expansion",
+  "time" : {
+    "start" : 1460648468481,
+    "stop" : 1460648468488,
+    "duration" : 7
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert {1: 2, 3: 4} == {1: 3, 3: 4}\n  Omitting 1 identical items, use -v to show\n  Differing items:\n  {1: 2} != {1: 3}\n  Use -v to get the full diff",
+    "stackTrace" : "self = <tests.test_xml.TestClass instance at 0x033DDBC0>\n\n    def test_pytest_expansion(self):\n        a = {1: 2, 3: 4}\n        b = {1: 3, 3: 4}\n    \n>       assert a == b\nE       assert {1: 2, 3: 4} == {1: 3, 3: 4}\nE         Omitting 1 identical items, use -v to show\nE         Differing items:\nE         {1: 2} != {1: 3}\nE         Use -v to get the full diff\n\ntests\\test_xml.py:46: AssertionError"
+  },
+  "description" : {
+    "value" : "\nУ этого модуля, как и у его тестов, кириллические описания, данные в юникоде\n\nCreated on Oct 19, 2013\n\n@author: pupssman\n",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "88fb13c72899c685",
+    "name" : "tests.test_nonascii",
+    "title" : "Test nonascii"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "4248-MainThread"
+  }, {
+    "name" : "feature",
+    "value" : "Feature1"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_nonascii"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

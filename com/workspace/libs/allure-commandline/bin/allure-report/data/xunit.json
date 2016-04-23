@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1461252481519,
+    "stop" : 1461252492456,
+    "duration" : 10937
+  },
+  "testSuites" : [ {
+    "uid" : "851234e121120dc7",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU",
+    "time" : {
+      "start" : 1461252481519,
+      "stop" : 1461252492456,
+      "duration" : 10937
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "ac96d241aa80d3bb",
+      "name" : "Test_login_BU.test_tc001",
+      "title" : "Test tc 001",
+      "time" : {
+        "start" : 1461252481519,
+        "stop" : 1461252492456,
+        "duration" : 10937
+      },
+      "severity" : "CRITICAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

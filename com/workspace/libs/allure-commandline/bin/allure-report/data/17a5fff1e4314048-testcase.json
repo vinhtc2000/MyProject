@@ -1,0 +1,158 @@
+{
+  "uid" : "17a5fff1e4314048",
+  "name" : "Test_login_BU.test_tc005",
+  "title" : "Test tc 005",
+  "time" : {
+    "start" : 1461251621955,
+    "stop" : 1461251623824,
+    "duration" : 1869
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "74c42dd0d148d74e",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ {
+    "name" : "2016-04-21 15:13:41\t[INFO]\tVerify user can login with valid account",
+    "title" : "2016-04-21 15:13:41\t[INFO]\tVerify user can login with valid account",
+    "time" : {
+      "start" : 1461251621957,
+      "stop" : 1461251621959,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:41\t[INFO]\t1. Enter valid username",
+    "title" : "2016-04-21 15:13:41\t[INFO]\t1. Enter valid username",
+    "time" : {
+      "start" : 1461251621959,
+      "stop" : 1461251621961,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:41\t[INFO]\t2. Enter valid password",
+    "title" : "2016-04-21 15:13:41\t[INFO]\t2. Enter valid password",
+    "time" : {
+      "start" : 1461251621961,
+      "stop" : 1461251621963,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:41\t[INFO]\t3. Click Login button",
+    "title" : "2016-04-21 15:13:41\t[INFO]\t3. Click Login button",
+    "time" : {
+      "start" : 1461251621963,
+      "stop" : 1461251621966,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:43\t[INFO]\t3. Verify control panel page is displayed",
+    "title" : "2016-04-21 15:13:43\t[INFO]\t3. Verify control panel page is displayed",
+    "time" : {
+      "start" : 1461251623777,
+      "stop" : 1461251623780,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:43\t[INFO]\tClose Joomla page",
+    "title" : "2016-04-21 15:13:43\t[INFO]\tClose Joomla page",
+    "time" : {
+      "start" : 1461251623825,
+      "stop" : 1461251623827,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:44\t[INFO]\tBrowser is closed",
+    "title" : "2016-04-21 15:13:44\t[INFO]\tBrowser is closed",
+    "time" : {
+      "start" : 1461251624156,
+      "stop" : 1461251624158,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "3696-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

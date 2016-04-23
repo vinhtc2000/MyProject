@@ -1,0 +1,50 @@
+{
+  "uid" : "24de842291ede4b3",
+  "name" : "test_fail",
+  "title" : "Test fail",
+  "time" : {
+    "start" : 1460636325221,
+    "stop" : 1460636325242,
+    "duration" : 21
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "def test_fail():\n        u'Этот тест падает'\n    \n>       assert False\nE       assert False\n\ntests\\test_nonascii.py:21: AssertionError"
+  },
+  "description" : {
+    "value" : "\nУ этого модуля, как и у его тестов, кириллические описания, данные в юникоде\n\nCreated on Oct 19, 2013\n\n@author: pupssman\n\r\nЭтот тест падает",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "78f28e191de4bf7",
+    "name" : "tests.test_nonascii",
+    "title" : "Test nonascii"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10628-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_nonascii"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

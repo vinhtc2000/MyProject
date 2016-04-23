@@ -1,0 +1,143 @@
+{
+  "uid" : "b685c8910d571702",
+  "name" : "Test_login_BU.test_tc003",
+  "title" : "Test tc 003",
+  "time" : {
+    "start" : 1461252320818,
+    "stop" : 1461252322015,
+    "duration" : 1197
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4cc59117149cb72c",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ {
+    "name" : "[INFO]\tVerify user can't login with empty username",
+    "title" : "[INFO]\tVerify user can't login with empty username",
+    "time" : {
+      "start" : 1461252320820,
+      "stop" : 1461252320822,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t1. Leave username blank",
+    "title" : "[INFO]\t1. Leave username blank",
+    "time" : {
+      "start" : 1461252320822,
+      "stop" : 1461252320823,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t2. Enter password",
+    "title" : "[INFO]\t2. Enter password",
+    "time" : {
+      "start" : 1461252320823,
+      "stop" : 1461252320825,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Click Login button",
+    "title" : "[INFO]\t3. Click Login button",
+    "time" : {
+      "start" : 1461252320825,
+      "stop" : 1461252320826,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Verify the 'Username and password do not match or you do not have an account yet.' error message is displayed",
+    "title" : "[INFO]\t3. Verify the 'Username and password do not match or you do not have an account yet.' error message is displayed",
+    "time" : {
+      "start" : 1461252321962,
+      "stop" : 1461252321970,
+      "duration" : 8
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe error message 'Username and password do not match or you do not have an account yet.' is displayed",
+    "title" : "[PASSED]\tThe error message 'Username and password do not match or you do not have an account yet.' is displayed",
+    "time" : {
+      "start" : 1461252322008,
+      "stop" : 1461252322015,
+      "duration" : 7
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "6908-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

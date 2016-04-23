@@ -1,0 +1,104 @@
+{
+  "uid" : "ca92cf212fb8790",
+  "name" : "test_step_attach[True]",
+  "title" : "Test step attach [True]",
+  "time" : {
+    "start" : 1460562488019,
+    "stop" : 1460562488021,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nThese tests show some attachment examples\n\nCreated on Oct 18, 2013\n\n@author: pupssman\n\r\n\n    Attaches stuff in steps\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "9ee7c1bbbc59433f",
+    "name" : "demo.test_attaches",
+    "title" : "Test attaches"
+  },
+  "steps" : [ {
+    "name" : "First step",
+    "title" : "First step",
+    "time" : {
+      "start" : 1460562488020,
+      "stop" : 1460562488020,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "First attach",
+      "source" : "ac0fde42-a336-49f3-ac5e-3b7fdac9653a-attachment.txt",
+      "type" : "text/plain",
+      "size" : 5,
+      "uid" : "1472d5a2f1edc91"
+    } ],
+    "steps" : [ {
+      "name" : "Second step",
+      "title" : "Second step",
+      "time" : {
+        "start" : 1460562488020,
+        "stop" : 1460562488020,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 1,
+        "steps" : 1
+      },
+      "status" : "PASSED",
+      "attachments" : [ {
+        "title" : "Second attach",
+        "source" : "b4853925-214c-4e21-a2bd-2b8c82e14583-attachment.txt",
+        "type" : "text/plain",
+        "size" : 6,
+        "uid" : "131e9f4dbbf3e82a"
+      } ],
+      "steps" : [ {
+        "name" : "Third step",
+        "title" : "Third step",
+        "time" : {
+          "start" : 1460562488020,
+          "stop" : 1460562488020,
+          "duration" : 0
+        },
+        "summary" : {
+          "attachments" : 0,
+          "steps" : 0
+        },
+        "status" : "PASSED",
+        "attachments" : [ ],
+        "steps" : [ ]
+      } ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo.test_attaches"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "844-MainThread"
+  } ],
+  "parameters" : [ ]
+}

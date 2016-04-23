@@ -1,0 +1,47 @@
+{
+  "uid" : "d898afde008af011",
+  "name" : "test_pass",
+  "title" : "Test pass",
+  "time" : {
+    "start" : 1460649646773,
+    "stop" : 1460649646775,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nThis module contains basic examples of tests\n\r\nЭтот тест проходит",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "334814554b6ec994",
+    "name" : "suite2.test_demo",
+    "title" : "Test demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "2628-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "suite2.test_demo"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

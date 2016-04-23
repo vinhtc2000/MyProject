@@ -1,0 +1,4 @@
+2016-04-20 17:10:47	[INFO]	1. Leave username and password blank
+2016-04-20 17:10:47	[INFO]	2. Click Login button
+2016-04-20 17:10:48	[INFO]	3. Verify the 'Empty password not allowed' error message is displayed
+2016-04-20 17:10:48	[PASSED]	The error message 'Empty password not allowed' is displayed

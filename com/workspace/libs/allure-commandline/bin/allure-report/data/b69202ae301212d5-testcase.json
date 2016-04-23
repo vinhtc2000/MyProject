@@ -1,0 +1,50 @@
+{
+  "uid" : "b69202ae301212d5",
+  "name" : "TestClass.test_xfail",
+  "title" : "Test xfail",
+  "time" : {
+    "start" : 1460636071574,
+    "stop" : 1460636071589,
+    "duration" : 15
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "",
+    "stackTrace" : "self = <tests.test_xml.TestClass instance at 0x0333C8F0>\n\n    @pytest.mark.xfail()\n    def test_xfail(self):\n        'this test is an xfail'\n>       assert False\nE       assert False\n\ntests\\test_xml.py:24: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThis module contains basic examples of tests\n\r\nthis test is an xfail",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a7f298c313da0422",
+    "name" : "tests.test_xml",
+    "title" : "Test xml"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "11248-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_xml"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "edbe70f1ff124b1c",
+  "name" : "test_pass",
+  "title" : "Test pass",
+  "time" : {
+    "start" : 1460649581010,
+    "stop" : 1460649581011,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nУ этого модуля, как и у его тестов, кириллические описания, данные в юникоде\n\nCreated on Oct 19, 2013\n\n@author: pupssman\n\r\nЭтот тест проходит",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a8d2f22d2990cf7",
+    "name" : "tests.test_nonascii",
+    "title" : "Test nonascii"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_nonascii"
+  }, {
+    "name" : "thread",
+    "value" : "9728-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "fb0700652891ee31",
+  "name" : "test_decorator",
+  "title" : "Test decorator",
+  "time" : {
+    "start" : 1460562488037,
+    "stop" : 1460562488038,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nThese tests show some attachment examples\n\nCreated on Oct 18, 2013\n\n@author: pupssman\n\r\n\n    Uses a function that is decorated with pytest.allure.step\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "9ee7c1bbbc59433f",
+    "name" : "demo.test_attaches",
+    "title" : "Test attaches"
+  },
+  "steps" : [ {
+    "name" : "my func step",
+    "title" : "my func step",
+    "time" : {
+      "start" : 1460562488038,
+      "stop" : 1460562488038,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo.test_attaches"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "844-MainThread"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "a86a939c7244a3db",
+  "name" : "test_success",
+  "title" : "Test success",
+  "time" : {
+    "start" : 1460649646692,
+    "stop" : 1460649646700,
+    "duration" : 8
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nThis module contains basic examples of tests\n\r\nthis test succedes",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "334814554b6ec994",
+    "name" : "suite2.test_demo",
+    "title" : "Test demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "2628-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "suite2.test_demo"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "fa9c5f3c20ba6cbc",
+  "name" : "Test_login_BU.test_tc001",
+  "title" : "Test tc 001",
+  "time" : {
+    "start" : 1461251019046,
+    "stop" : 1461251029818,
+    "duration" : 10772
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b9aecc5c86f7cce0",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "5912-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "a6170cbd4d2c21d5",
+  "name" : "test_smoke[xdist-parallel]",
+  "title" : "Test smoke [xdist-parallel]",
+  "time" : {
+    "start" : 1460636658007,
+    "stop" : 1460636658629,
+    "duration" : 622
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "SystemExit: 2",
+    "stackTrace" : "report_for = <function impl at 0x035E8C70>\n\n    def test_smoke(report_for):\n        report_for(\"\"\"\n        import pytest\n        def test():\n            assert True\n>       \"\"\", extra_run_args=['-n', '2'])\n\nD:\\01. Du lieu ca nhan\\01. Vinh\\04. Project\\allure-python-master\\allure-python-master\\tests\\test_xdist.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nD:\\01. Du lieu ca nhan\\01. Vinh\\04. Project\\allure-python-master\\allure-python-master\\tests\\conftest.py:65: in impl\n    reports = reports_for(*a, **kw)\nD:\\01. Du lieu ca nhan\\01. Vinh\\04. Project\\allure-python-master\\allure-python-master\\tests\\conftest.py:48: in impl\n    testdir.inline_run(\"--alluredir\", resultpath, *extra_run_args)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\pytester.py:693: in inline_run\n    ret = pytest.main(list(args), plugins=plugins)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\config.py:39: in main\n    config = _prepareconfig(args, plugins)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\config.py:118: in _prepareconfig\n    pluginmanager=pluginmanager, args=args)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\vendored_packages\\pluggy.py:724: in __call__\n    return self._hookexec(self, self._nonwrappers + self._wrappers, kwargs)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\vendored_packages\\pluggy.py:338: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\vendored_packages\\pluggy.py:333: in <lambda>\n    _MultiCall(methods, kwargs, hook.spec_opts).execute()\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\vendored_packages\\pluggy.py:595: in execute\n    return _wrapped_call(hook_impl.function(*args), self.execute)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\vendored_packages\\pluggy.py:249: in _wrapped_call\n    wrap_controller.send(call_outcome)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\helpconfig.py:28: in pytest_cmdline_parse\n    config = outcome.get_result()\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\vendored_packages\\pluggy.py:279: in get_result\n    _reraise(*ex)  # noqa\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\vendored_packages\\pluggy.py:264: in __init__\n    self.result = func()\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\vendored_packages\\pluggy.py:596: in execute\n    res = hook_impl.function(*args)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\config.py:856: in pytest_cmdline_parse\n    self.parse(args)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\config.py:964: in parse\n    args = self._parser.parse_setoption(args, self.option, namespace=self.option)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\config.py:482: in parse_setoption\n    parsedoption = self.parse(args, namespace=namespace)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\config.py:463: in parse\n    return self.optparser.parse_args([str(x) for x in args], namespace=namespace)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\config.py:721: in parse_args\n    self.error('\\n'.join(lines))\nC:\\Python27\\Lib\\argparse.py:2374: in error\n    self.exit(2, _('%s: error: %s\\n') % (self.prog, message))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = MyOptionParser(prog='py.test-script.py', usage='%(prog)s [options] [file_or_di...onfig.DropShorterLongHelpFormatter'>, conflict_handler='error', add_help=False)\nstatus = 2\nmessage = 'py.test-script.py: error: unrecognized arguments: -n -n 1\\n  inifile: None\\n  rootdir: c:\\\\users\\\\zinhvc~1\\\\appdata\\\\local\\\\temp\\\\pytest-of-ZinhVcoin\\\\pytest-16\\\\testdir\\\\test_smoke2\\n'\n\n    def exit(self, status=0, message=None):\n        if message:\n            self._print_message(message, _sys.stderr)\n>       _sys.exit(status)\nE       SystemExit: 2\n\nC:\\Python27\\Lib\\argparse.py:2362: SystemExit"
+  },
+  "description" : {
+    "value" : "\nThese tests show some attachment examples\n\nCreated on Oct 18, 2013\n\n@author: pupssman\n",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3f0574f19f3008de",
+    "name" : "demo.test_attaches",
+    "title" : "Test attaches"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stderr call",
+    "source" : "049ee870-1849-4320-a008-78c5269ac292-attachment.txt",
+    "type" : "text/plain",
+    "size" : 241,
+    "uid" : "a52d9819cf97adae"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo.test_attaches"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7400-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

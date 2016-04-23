@@ -1,0 +1,50 @@
+{
+  "uid" : "a700da67b3dd2eae",
+  "name" : "TestClass.test_xpass",
+  "title" : "Test xpass",
+  "time" : {
+    "start" : 1460636071592,
+    "stop" : 1460636071599,
+    "duration" : 7
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "xpassed",
+    "stackTrace" : ""
+  },
+  "description" : {
+    "value" : "\nThis module contains basic examples of tests\n\r\nthis test is a xpass -- it is expected to fail, but still passes",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a7f298c313da0422",
+    "name" : "tests.test_xml",
+    "title" : "Test xml"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "11248-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_xml"
+  } ],
+  "parameters" : [ ]
+}

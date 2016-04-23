@@ -1,0 +1,158 @@
+{
+  "uid" : "50b25a36c67d0fb1",
+  "name" : "Test_login_BU.test_tc001",
+  "title" : "Test tc 001",
+  "time" : {
+    "start" : 1461251607031,
+    "stop" : 1461251618004,
+    "duration" : 10973
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "74c42dd0d148d74e",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ {
+    "name" : "2016-04-21 15:13:27\t[INFO]\tNavigate to Joomla Login page",
+    "title" : "2016-04-21 15:13:27\t[INFO]\tNavigate to Joomla Login page",
+    "time" : {
+      "start" : 1461251607039,
+      "stop" : 1461251607041,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:33\t[INFO]\tOpen browser successfully",
+    "title" : "2016-04-21 15:13:33\t[INFO]\tOpen browser successfully",
+    "time" : {
+      "start" : 1461251613866,
+      "stop" : 1461251613869,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:36\t[INFO]\tNavigate to http://localhost/joomla/administrator/ successfully",
+    "title" : "2016-04-21 15:13:36\t[INFO]\tNavigate to http://localhost/joomla/administrator/ successfully",
+    "time" : {
+      "start" : 1461251616821,
+      "stop" : 1461251616826,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:36\t[INFO]\tVerify user can't login with empty username and password",
+    "title" : "2016-04-21 15:13:36\t[INFO]\tVerify user can't login with empty username and password",
+    "time" : {
+      "start" : 1461251616826,
+      "stop" : 1461251616831,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:36\t[INFO]\t1. Leave username and password blank",
+    "title" : "2016-04-21 15:13:36\t[INFO]\t1. Leave username and password blank",
+    "time" : {
+      "start" : 1461251616831,
+      "stop" : 1461251616834,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:36\t[INFO]\t2. Click Login button",
+    "title" : "2016-04-21 15:13:36\t[INFO]\t2. Click Login button",
+    "time" : {
+      "start" : 1461251616834,
+      "stop" : 1461251616835,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:37\t[INFO]\t3. Verify the 'Empty password not allowed' error message is displayed",
+    "title" : "2016-04-21 15:13:37\t[INFO]\t3. Verify the 'Empty password not allowed' error message is displayed",
+    "time" : {
+      "start" : 1461251617945,
+      "stop" : 1461251617949,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "3696-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

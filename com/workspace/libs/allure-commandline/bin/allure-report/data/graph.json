@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "ac96d241aa80d3bb",
+    "name" : "Test_login_BU.test_tc001",
+    "title" : "Test tc 001",
+    "time" : {
+      "start" : 1461252481519,
+      "stop" : 1461252492456,
+      "duration" : 10937
+    },
+    "severity" : "CRITICAL",
+    "status" : "PASSED"
+  } ]
+}

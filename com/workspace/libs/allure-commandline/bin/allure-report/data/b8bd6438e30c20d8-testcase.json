@@ -1,0 +1,50 @@
+{
+  "uid" : "b8bd6438e30c20d8",
+  "name" : "TestClass.test_broken_fixture",
+  "title" : "Test broken fixture",
+  "time" : {
+    "start" : 1460647044821,
+    "stop" : 1460647044822,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "FixtureLookupError: ",
+    "stackTrace" : "file D:\\01. Du lieu ca nhan\\01. Vinh\\workspace_eclipse\\allure_example\\tests\\test_xml.py, line 33\n      def test_broken_fixture(self, NOT_A_FIXTURE):\n        fixture 'NOT_A_FIXTURE' not found\n        available fixtures: tmpdir_factory, pytestconfig, cache, recwarn, monkeypatch, record_xml_property, capfd, capsys, tmpdir\n        use 'py.test --fixtures [testpath]' for help on them.\n\nD:\\01. Du lieu ca nhan\\01. Vinh\\workspace_eclipse\\allure_example\\tests\\test_xml.py:33"
+  },
+  "description" : {
+    "value" : "\nУ этого модуля, как и у его тестов, кириллические описания, данные в юникоде\n\nCreated on Oct 19, 2013\n\n@author: pupssman\n\r\nthis test fails due to a non-satisfiable fixture request",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "bd9fff57c183511c",
+    "name" : "tests.test_nonascii",
+    "title" : "Test nonascii"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_nonascii"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7024-MainThread"
+  } ],
+  "parameters" : [ ]
+}

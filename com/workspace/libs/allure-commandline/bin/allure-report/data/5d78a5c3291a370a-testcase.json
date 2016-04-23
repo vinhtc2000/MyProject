@@ -1,0 +1,65 @@
+{
+  "uid" : "5d78a5c3291a370a",
+  "name" : "Test_login_BU.test_tc001",
+  "title" : "Test tc 001",
+  "time" : {
+    "start" : 1461170680889,
+    "stop" : 1461170691633,
+    "duration" : 10744
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4b4f81dd6ab6247a",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "34848be3-49cb-4a21-810a-4dacdfa01d69-attachment.txt",
+    "type" : "text/plain",
+    "size" : 201,
+    "uid" : "bd1af2aefaa888ac"
+  }, {
+    "title" : "Captured stdout call",
+    "source" : "0b05bcd3-e602-4f9c-bea3-85b783264723-attachment.txt",
+    "type" : "text/plain",
+    "size" : 9,
+    "uid" : "f08e586fe2b4e18f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "10920-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

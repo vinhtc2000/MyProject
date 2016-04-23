@@ -1,0 +1,83 @@
+{
+  "uid" : "7522bc45e75e90c2",
+  "name" : "test_inline_step[True]",
+  "title" : "Test inline step [True]",
+  "time" : {
+    "start" : 1460649797591,
+    "stop" : 1460649797600,
+    "duration" : 9
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nУ этого модуля, как и у его тестов, кириллические описания, данные в юникоде\n\nCreated on Oct 19, 2013\n\n@author: pupssman\n\r\n\n    has two steps right iside of it\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4cd83c42489a36f2",
+    "name" : "tests.test_nonascii",
+    "title" : "Test nonascii"
+  },
+  "steps" : [ {
+    "name" : "First step",
+    "title" : "First step",
+    "time" : {
+      "start" : 1460649797599,
+      "stop" : 1460649797600,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Second step that fails",
+    "title" : "Second step that fails",
+    "time" : {
+      "start" : 1460649797600,
+      "stop" : 1460649797600,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "96b01dc5-80c4-4040-84b5-897945f79d90-attachment.txt",
+    "type" : "text/plain",
+    "size" : 20,
+    "uid" : "174a476c8975cd43"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_nonascii"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "6956-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

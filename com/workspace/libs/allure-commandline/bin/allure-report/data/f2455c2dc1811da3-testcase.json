@@ -1,0 +1,128 @@
+{
+  "uid" : "f2455c2dc1811da3",
+  "name" : "Test_login_BU.test_tc002",
+  "title" : "Test tc 002",
+  "time" : {
+    "start" : 1461251618008,
+    "stop" : 1461251619613,
+    "duration" : 1605
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "74c42dd0d148d74e",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ {
+    "name" : "2016-04-21 15:13:38\t[INFO]\tVerify user can't login with empty password",
+    "title" : "2016-04-21 15:13:38\t[INFO]\tVerify user can't login with empty password",
+    "time" : {
+      "start" : 1461251618010,
+      "stop" : 1461251618012,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:38\t[INFO]\t1. Enter username",
+    "title" : "2016-04-21 15:13:38\t[INFO]\t1. Enter username",
+    "time" : {
+      "start" : 1461251618012,
+      "stop" : 1461251618014,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:38\t[INFO]\t2. Leave password blank",
+    "title" : "2016-04-21 15:13:38\t[INFO]\t2. Leave password blank",
+    "time" : {
+      "start" : 1461251618014,
+      "stop" : 1461251618016,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:38\t[INFO]\t3. Click Login button",
+    "title" : "2016-04-21 15:13:38\t[INFO]\t3. Click Login button",
+    "time" : {
+      "start" : 1461251618016,
+      "stop" : 1461251618017,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "2016-04-21 15:13:39\t[INFO]\t3. Verify the 'Empty password not allowed' error message is displayed",
+    "title" : "2016-04-21 15:13:39\t[INFO]\t3. Verify the 'Empty password not allowed' error message is displayed",
+    "time" : {
+      "start" : 1461251619552,
+      "stop" : 1461251619556,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "3696-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "e0c60f02ab565605",
+  "name" : "TestClass.test_xfail",
+  "title" : "Test xfail",
+  "time" : {
+    "start" : 1460649581046,
+    "stop" : 1460649581054,
+    "duration" : 8
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "",
+    "stackTrace" : "self = <tests.test_xml.TestClass instance at 0x035C68F0>\n\n    @pytest.mark.xfail()\n    @allure.story('Story1')\n    def test_xfail(self):\n        'this test is an xfail'\n>       assert False\nE       assert False\n\ntests\\test_xml.py:29: AssertionError"
+  },
+  "description" : {
+    "value" : "\nУ этого модуля, как и у его тестов, кириллические описания, данные в юникоде\n\nCreated on Oct 19, 2013\n\n@author: pupssman\n\r\nthis test is an xfail",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a8d2f22d2990cf7",
+    "name" : "tests.test_nonascii",
+    "title" : "Test nonascii"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Feature1"
+  }, {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_nonascii"
+  }, {
+    "name" : "thread",
+    "value" : "9728-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

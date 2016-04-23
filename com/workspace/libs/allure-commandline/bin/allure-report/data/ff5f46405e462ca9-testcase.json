@@ -1,0 +1,56 @@
+{
+  "uid" : "ff5f46405e462ca9",
+  "name" : "TestClass.test_xpass",
+  "title" : "Test xpass",
+  "time" : {
+    "start" : 1460649914853,
+    "stop" : 1460649914855,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "xpassed",
+    "stackTrace" : ""
+  },
+  "description" : {
+    "value" : "\nУ этого модуля, как и у его тестов, кириллические описания, данные в юникоде\n\nCreated on Oct 19, 2013\n\n@author: pupssman\n\r\nthis test is a xpass -- it is expected to fail, but still passes",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "983b3ba1607cd63c",
+    "name" : "tests.test_nonascii",
+    "title" : "Test nonascii"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "5548-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Story2"
+  }, {
+    "name" : "feature",
+    "value" : "Feature1"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_nonascii"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

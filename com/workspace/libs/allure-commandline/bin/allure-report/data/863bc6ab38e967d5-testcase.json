@@ -1,0 +1,173 @@
+{
+  "uid" : "863bc6ab38e967d5",
+  "name" : "Test_login_BU.test_tc001",
+  "title" : "Test tc 001",
+  "time" : {
+    "start" : 1461252308394,
+    "stop" : 1461252319353,
+    "duration" : 10959
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 8
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4cc59117149cb72c",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ {
+    "name" : "[INFO]\tNavigate to Joomla Login page",
+    "title" : "[INFO]\tNavigate to Joomla Login page",
+    "time" : {
+      "start" : 1461252308403,
+      "stop" : 1461252308405,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tOpen browser successfully",
+    "title" : "[INFO]\tOpen browser successfully",
+    "time" : {
+      "start" : 1461252315193,
+      "stop" : 1461252315197,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tNavigate to http://localhost/joomla/administrator/ successfully",
+    "title" : "[INFO]\tNavigate to http://localhost/joomla/administrator/ successfully",
+    "time" : {
+      "start" : 1461252318194,
+      "stop" : 1461252318199,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tVerify user can't login with empty username and password",
+    "title" : "[INFO]\tVerify user can't login with empty username and password",
+    "time" : {
+      "start" : 1461252318200,
+      "stop" : 1461252318203,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t1. Leave username and password blank",
+    "title" : "[INFO]\t1. Leave username and password blank",
+    "time" : {
+      "start" : 1461252318203,
+      "stop" : 1461252318206,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t2. Click Login button",
+    "title" : "[INFO]\t2. Click Login button",
+    "time" : {
+      "start" : 1461252318206,
+      "stop" : 1461252318208,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Verify the 'Empty password not allowed' error message is displayed",
+    "title" : "[INFO]\t3. Verify the 'Empty password not allowed' error message is displayed",
+    "time" : {
+      "start" : 1461252319296,
+      "stop" : 1461252319299,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe error message 'Empty password not allowed' is displayed",
+    "title" : "[PASSED]\tThe error message 'Empty password not allowed' is displayed",
+    "time" : {
+      "start" : 1461252319350,
+      "stop" : 1461252319353,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "6908-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

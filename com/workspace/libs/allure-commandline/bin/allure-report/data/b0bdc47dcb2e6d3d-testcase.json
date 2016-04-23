@@ -1,0 +1,41 @@
+{
+  "uid" : "b0bdc47dcb2e6d3d",
+  "name" : "UnknownTestCase",
+  "title" : "Unknown test case",
+  "time" : {
+    "start" : 1460636774262,
+    "stop" : 1460636774262,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "failed",
+    "stackTrace" : "C:\\Python27\\lib\\site-packages\\py-1.4.31-py2.7.egg\\py\\_path\\local.py:650: in pyimport\n    __import__(modname)\nC:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\assertion\\rewrite.py:171: in load_module\n    py.builtin.exec_(co, mod.__dict__)\ndemo\\test_collect_import_error.py:5: in <module>\n    import NOT_A_MODULE\nE   ImportError: No module named NOT_A_MODULE"
+  },
+  "description" : {
+    "value" : "This is the tests collection phase. Failures are modules that failed to collect.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6f3bc85a746d5064",
+    "name" : "test_collection_phase",
+    "title" : "Collection phase"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Collection phase"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_collection_phase"
+  } ],
+  "parameters" : [ ]
+}

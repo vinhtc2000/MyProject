@@ -1,0 +1,50 @@
+{
+  "uid" : "cad0411c9af98cae",
+  "name" : "test_failure",
+  "title" : "Test failure",
+  "time" : {
+    "start" : 1460649646798,
+    "stop" : 1460649646805,
+    "duration" : 7
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "@pytest.mark.testweb\n    def test_failure():\n            'this test fails'\n>           assert False\nE           assert False\n\ntests\\test_xml.py:15: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThis module contains basic examples of tests\n\r\nthis test fails",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "334814554b6ec994",
+    "name" : "suite2.test_demo",
+    "title" : "Test demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "2628-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "suite2.test_demo"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

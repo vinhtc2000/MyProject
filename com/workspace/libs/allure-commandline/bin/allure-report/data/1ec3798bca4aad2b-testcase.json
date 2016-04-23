@@ -1,0 +1,56 @@
+{
+  "uid" : "1ec3798bca4aad2b",
+  "name" : "Test_login_BU.test_tc003",
+  "title" : "Test tc 003",
+  "time" : {
+    "start" : 1461245631222,
+    "stop" : 1461245632316,
+    "duration" : 1094
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "def post_condition_function():\n        if (os.environ['PYTHON_TC_STATUS'] == \"Failed\"):\n>           assert False\nE           assert False\n\nmodule\\AbstractTest.py:17: AssertionError"
+  },
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7b6e6b834b0fad77",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "5764-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

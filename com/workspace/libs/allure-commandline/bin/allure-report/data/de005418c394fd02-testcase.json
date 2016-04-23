@@ -1,0 +1,86 @@
+{
+  "uid" : "de005418c394fd02",
+  "name" : "test_inline_step[False]",
+  "title" : "Test inline step [False]",
+  "time" : {
+    "start" : 1460649646760,
+    "stop" : 1460649646768,
+    "duration" : 8
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "fail = False\n\n    @pytest.mark.parametrize('fail', [True, False])\n    def test_inline_step(fail):\n        \"\"\"\n        has two steps right iside of it\n        \"\"\"\n        with pytest.allure.step('First step'):  # @UndefinedVariable\n            print 'OLOLO in first step'\n    \n        with pytest.allure.step('Second step that fails'):  # @UndefinedVariable\n>           assert fail\nE           assert False\n\ntests\\test_nonascii.py:21: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThis module contains basic examples of tests\n\r\n\n    has two steps right iside of it\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "334814554b6ec994",
+    "name" : "suite2.test_demo",
+    "title" : "Test demo"
+  },
+  "steps" : [ {
+    "name" : "First step",
+    "title" : "First step",
+    "time" : {
+      "start" : 1460649646761,
+      "stop" : 1460649646762,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Second step that fails",
+    "title" : "Second step that fails",
+    "time" : {
+      "start" : 1460649646762,
+      "stop" : 1460649646762,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "1e16e136-4a51-4616-95e1-257b5479b965-attachment.txt",
+    "type" : "text/plain",
+    "size" : 20,
+    "uid" : "13f11d043c3c0cb6"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "2628-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "suite2.test_demo"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,83 @@
+{
+  "uid" : "e5e27648584405bb",
+  "name" : "test_inline_step[True]",
+  "title" : "Test inline step [True]",
+  "time" : {
+    "start" : 1460636772803,
+    "stop" : 1460636772805,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nThese tests show some attachment examples\n\nCreated on Oct 18, 2013\n\n@author: pupssman\n\r\n\n    has two steps right iside of it\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "42874e6ddbdbb0b3",
+    "name" : "demo.test_attaches",
+    "title" : "Test attaches"
+  },
+  "steps" : [ {
+    "name" : "First step",
+    "title" : "First step",
+    "time" : {
+      "start" : 1460636772804,
+      "stop" : 1460636772805,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Second step that fails",
+    "title" : "Second step that fails",
+    "time" : {
+      "start" : 1460636772805,
+      "stop" : 1460636772805,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "82713d6e-bc75-40d1-8daa-b9eaea57340a-attachment.txt",
+    "type" : "text/plain",
+    "size" : 20,
+    "uid" : "2a135d1090332f21"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo.test_attaches"
+  }, {
+    "name" : "thread",
+    "value" : "7556-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

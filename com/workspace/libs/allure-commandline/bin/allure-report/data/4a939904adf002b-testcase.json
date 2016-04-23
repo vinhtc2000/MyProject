@@ -1,0 +1,41 @@
+{
+  "uid" : "4a939904adf002b",
+  "name" : "UnknownTestCase",
+  "title" : "Unknown test case",
+  "time" : {
+    "start" : 1460636774262,
+    "stop" : 1460636774262,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "failed",
+    "stackTrace" : "C:\\Python27\\lib\\site-packages\\pytest-2.9.0-py2.7.egg\\_pytest\\python.py:611: in _importtestmodule\n    mod = self.fspath.pyimport(ensuresyspath=importmode)\nC:\\Python27\\lib\\site-packages\\py-1.4.31-py2.7.egg\\py\\_path\\local.py:650: in pyimport\n    __import__(modname)\nE     File \"D:\\01. Du lieu ca nhan\\01. Vinh\\04. Project\\allure-python-master\\allure-python-master\\demo - Copy\\test_collect_error.py\", line 8\nE       \nE      ^\nE   SyntaxError: invalid syntax"
+  },
+  "description" : {
+    "value" : "This is the tests collection phase. Failures are modules that failed to collect.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6f3bc85a746d5064",
+    "name" : "test_collection_phase",
+    "title" : "Collection phase"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Collection phase"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_collection_phase"
+  } ],
+  "parameters" : [ ]
+}

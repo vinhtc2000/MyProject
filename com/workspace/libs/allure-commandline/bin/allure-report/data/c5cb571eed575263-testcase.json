@@ -1,0 +1,107 @@
+{
+  "uid" : "c5cb571eed575263",
+  "name" : "test_step_attach[False]",
+  "title" : "Test step attach [False]",
+  "time" : {
+    "start" : 1460636772858,
+    "stop" : 1460636772866,
+    "duration" : 8
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 3
+  },
+  "failure" : {
+    "message" : "AssertionError: assert False",
+    "stackTrace" : "fail = False\n\n    @pytest.mark.parametrize('fail', [True, False])\n    def test_step_attach(fail):\n        \"\"\"\n        Attaches stuff in steps\n        \"\"\"\n        with pytest.allure.step('First step'):  # @UndefinedVariable\n            pytest.allure.attach('First attach', 'ololo')  # @UndefinedVariable\n            with pytest.allure.step('Second step'):  # @UndefinedVariable\n                pytest.allure.attach('Second attach', 'pewpew')  # @UndefinedVariable\n                with pytest.allure.step('Third step'):  # @UndefinedVariable\n>                   assert fail\nE                   assert False\n\ndemo\\test_steps.py:63: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThese tests show some attachment examples\n\nCreated on Oct 18, 2013\n\n@author: pupssman\n\r\n\n    Attaches stuff in steps\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "42874e6ddbdbb0b3",
+    "name" : "demo.test_attaches",
+    "title" : "Test attaches"
+  },
+  "steps" : [ {
+    "name" : "First step",
+    "title" : "First step",
+    "time" : {
+      "start" : 1460636772859,
+      "stop" : 1460636772859,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 2,
+      "steps" : 2
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "First attach",
+      "source" : "0314420e-1f08-48b7-8e48-1f746984e449-attachment.txt",
+      "type" : "text/plain",
+      "size" : 5,
+      "uid" : "424d3d19c087ee3a"
+    } ],
+    "steps" : [ {
+      "name" : "Second step",
+      "title" : "Second step",
+      "time" : {
+        "start" : 1460636772859,
+        "stop" : 1460636772859,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 1,
+        "steps" : 1
+      },
+      "status" : "FAILED",
+      "attachments" : [ {
+        "title" : "Second attach",
+        "source" : "6b910681-a1a8-41d5-8dfe-945828e15c9c-attachment.txt",
+        "type" : "text/plain",
+        "size" : 6,
+        "uid" : "a6f393c189b32696"
+      } ],
+      "steps" : [ {
+        "name" : "Third step",
+        "title" : "Third step",
+        "time" : {
+          "start" : 1460636772859,
+          "stop" : 1460636772859,
+          "duration" : 0
+        },
+        "summary" : {
+          "attachments" : 0,
+          "steps" : 0
+        },
+        "status" : "FAILED",
+        "attachments" : [ ],
+        "steps" : [ ]
+      } ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo.test_attaches"
+  }, {
+    "name" : "thread",
+    "value" : "7556-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

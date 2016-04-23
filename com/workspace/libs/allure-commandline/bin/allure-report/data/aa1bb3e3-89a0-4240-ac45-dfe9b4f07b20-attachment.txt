@@ -1,0 +1,4 @@
+usage: py.test-script.py [options] [file_or_dir] [file_or_dir] [...]
+py.test-script.py: error: unrecognized arguments: -n -n 1
+  inifile: None
+  rootdir: c:\users\zinhvc~1\appdata\local\temp\pytest-of-ZinhVcoin\pytest-3\testdir\test_smoke2

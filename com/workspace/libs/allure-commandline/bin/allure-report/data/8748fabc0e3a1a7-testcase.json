@@ -1,0 +1,56 @@
+{
+  "uid" : "8748fabc0e3a1a7",
+  "name" : "TestClass.test_xfail",
+  "title" : "Test xfail",
+  "time" : {
+    "start" : 1460649646722,
+    "stop" : 1460649646731,
+    "duration" : 9
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "",
+    "stackTrace" : "self = <suite2.test_demo.TestClass instance at 0x03438B70>\n\n    @pytest.mark.xfail()\n    @allure.story('Story1')\n    def test_xfail(self):\n        'this test is an xfail'\n>       assert False\nE       assert False\n\nsuite2\\test_demo.py:29: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThis module contains basic examples of tests\n\r\nthis test is an xfail",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "testId" : null,
+  "suite" : {
+    "uid" : "334814554b6ec994",
+    "name" : "suite2.test_demo",
+    "title" : "Test demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Feature1"
+  }, {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "2628-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "suite2.test_demo"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

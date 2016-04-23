@@ -1,0 +1,53 @@
+{
+  "uid" : "1d2728f97b697cc5",
+  "name" : "TestClass.test_pytest_expansion",
+  "title" : "Test pytest expansion",
+  "time" : {
+    "start" : 1460649646830,
+    "stop" : 1460649646838,
+    "duration" : 8
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert {1: 2, 3: 4} == {1: 3, 3: 4}\n  Omitting 1 identical items, use -v to show\n  Differing items:\n  {1: 2} != {1: 3}\n  Use -v to get the full diff",
+    "stackTrace" : "self = <tests.test_xml.TestClass instance at 0x03468E18>\n\n    def test_pytest_expansion(self):\n        a = {1: 2, 3: 4}\n        b = {1: 3, 3: 4}\n    \n>       assert a == b\nE       assert {1: 2, 3: 4} == {1: 3, 3: 4}\nE         Omitting 1 identical items, use -v to show\nE         Differing items:\nE         {1: 2} != {1: 3}\nE         Use -v to get the full diff\n\ntests\\test_xml.py:47: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThis module contains basic examples of tests\n",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "334814554b6ec994",
+    "name" : "suite2.test_demo",
+    "title" : "Test demo"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Feature1"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "2628-MainThread"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "suite2.test_demo"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}

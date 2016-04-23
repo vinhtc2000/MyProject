@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "Login",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "d6c0d642d7c8942b",
+      "title" : "Functional",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "ac96d241aa80d3bb",
+        "name" : "Test_login_BU.test_tc001",
+        "title" : "Test tc 001",
+        "time" : {
+          "start" : 1461252481519,
+          "stop" : 1461252492456,
+          "duration" : 10937
+        },
+        "severity" : "CRITICAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

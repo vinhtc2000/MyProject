@@ -1,0 +1,41 @@
+{
+  "uid" : "92331d838beeafab",
+  "name" : "UnknownTestCase",
+  "title" : "Unknown test case",
+  "time" : {
+    "start" : 1460636774261,
+    "stop" : 1460636774261,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "failed",
+    "stackTrace" : "demo\\test_collect_import_error.py:5: in <module>\n    import NOT_A_MODULE\nE   ImportError: No module named NOT_A_MODULE"
+  },
+  "description" : {
+    "value" : "This is the tests collection phase. Failures are modules that failed to collect.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6f3bc85a746d5064",
+    "name" : "test_collection_phase",
+    "title" : "Collection phase"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Collection phase"
+  }, {
+    "name" : "suite-name",
+    "value" : "test_collection_phase"
+  } ],
+  "parameters" : [ ]
+}

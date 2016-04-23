@@ -1,0 +1,56 @@
+{
+  "uid" : "77729a13d7df3ffa",
+  "name" : "Test_login_BU.test_tc002",
+  "title" : "Test tc 002",
+  "time" : {
+    "start" : 1461242037836,
+    "stop" : 1461242039418,
+    "duration" : 1582
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "KeyError: 'JOOMLA_ERRORS'",
+    "stackTrace" : "self = <com.workspace.project01.module.front_back.login_page.test_login_BU.Test_login_BU instance at 0x03522508>\n\n    @allure.story('Functional')\n    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    def test_tc002(self):\n    #         allure.attach('my attach', 'Hello, World')\n        self.logInfo(\"Verify user can't login with empty password\")\n        self.logInfo(\"1. Enter username\")\n        self.logInfo(\"2. Leave password blank\")\n        self.logInfo(\"3. Click Login button\")\n        self.loginPage().login(self.cfValidUsername, \"\")\n    \n        self.logInfo(\"3. Verify the 'Username and password do not match or you do not have an account yet.' error message is displayed\")\n>       self.loginPage().checkErrorMessageDisplayed(self.UsernameAndPasswordNotMacthMessage)\n\nmodule\\front_back\\login_page\\test_login_BU.py:50: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nactions\\pages\\Login.py:32: in checkErrorMessageDisplayed\n    \"The error message '%s' is displayed instead of '%s'\" % (messageContent, message))\nactions\\AbstractPage.py:295: in verifyTrue\n    self.logFail(failMsg)\nactions\\Common.py:82: in logFail\n    os.environ['JOOMLA_ERRORS'] = str(int(os.environ['JOOMLA_ERRORS']) + 1)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = {'TMP': 'C:\\\\Users\\\\ZINHVC~1\\\\AppData\\\\Local\\\\Temp', 'COMPUTERNAME': 'ZINHVCOIN-PC', 'RUN_FULL_LANGUAGES': 'TRUE', 'US...Program Files\\\\Common Files', 'OS': 'Windows_NT', 'PUBLIC': 'C:\\\\Users\\\\Public', 'USERPROFILE': 'C:\\\\Users\\\\ZinhVcoin'}\nkey = 'JOOMLA_ERRORS'\n\n    def __getitem__(self, key):\n>       return self.data[key.upper()]\nE       KeyError: 'JOOMLA_ERRORS'\n\nC:\\Python27\\Lib\\os.py:425: KeyError"
+  },
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8ba492f570f80080",
+    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "4924-MainThread"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Functional"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.module.front_back.login_page.test_login_BU"
+  } ],
+  "parameters" : [ ]
+}

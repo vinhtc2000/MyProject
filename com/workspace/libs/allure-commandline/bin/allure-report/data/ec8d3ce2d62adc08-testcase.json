@@ -1,0 +1,50 @@
+{
+  "uid" : "ec8d3ce2d62adc08",
+  "name" : "test_raise_cyrilling",
+  "title" : "Test raise cyrilling",
+  "time" : {
+    "start" : 1460649154406,
+    "stop" : 1460649154412,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Exception: Невероятная проблема!",
+    "stackTrace" : "def test_raise_cyrilling():\n        u'Этот тест выкидывает исключение с русскими буквами'\n    \n>       raise Exception(u'Невероятная проблема!')\nE       Exception: Невероятная проблема!\n\ntests\\test_nonascii.py:38: Exception"
+  },
+  "description" : {
+    "value" : "\nУ этого модуля, как и у его тестов, кириллические описания, данные в юникоде\n\nCreated on Oct 19, 2013\n\n@author: pupssman\n\r\nЭтот тест выкидывает исключение с русскими буквами",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "640b5fa5432331aa",
+    "name" : "tests.test_nonascii",
+    "title" : "Test nonascii"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "tests.test_nonascii"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8188-MainThread"
+  } ],
+  "parameters" : [ ]
+}

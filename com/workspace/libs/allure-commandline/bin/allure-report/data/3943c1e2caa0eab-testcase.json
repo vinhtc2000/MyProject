@@ -1,0 +1,50 @@
+{
+  "uid" : "3943c1e2caa0eab",
+  "name" : "test_xfail",
+  "title" : "Test xfail",
+  "time" : {
+    "start" : 1460636772301,
+    "stop" : 1460636772307,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "",
+    "stackTrace" : "@pytest.mark.xfail()\n    def test_xfail():\n        'this test is an xfail'\n>       assert False\nE       assert False\n\ndemo\\test_basic_examples.py:25: AssertionError"
+  },
+  "description" : {
+    "value" : "\nThese tests show some attachment examples\n\nCreated on Oct 18, 2013\n\n@author: pupssman\n\r\nthis test is an xfail",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "testId" : null,
+  "suite" : {
+    "uid" : "42874e6ddbdbb0b3",
+    "name" : "demo.test_attaches",
+    "title" : "Test attaches"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "demo.test_attaches"
+  }, {
+    "name" : "thread",
+    "value" : "7556-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  } ],
+  "parameters" : [ ]
+}
