@@ -77,11 +77,11 @@ def runTestSuite(tcNames, ftNames, stNames, svNames):
     if not os.path.exists(d):
         os.makedirs(d)
            
-    dateTime = strftime("%Y%m%d%H%M%S", gmtime())
-    reportPath = '%sReport_%s/' % (reportPath, dateTime)
-    d = os.path.dirname(reportPath)
-    if not os.path.exists(d):
-        os.makedirs(d)
+#     dateTime = strftime("%Y%m%d%H%M%S", gmtime())
+#     reportPath = '%sReport_%s/' % (reportPath, dateTime)
+#     d = os.path.dirname(reportPath)
+#     if not os.path.exists(d):
+#         os.makedirs(d)
     
     ########################################
     # Handle input data
@@ -124,7 +124,7 @@ def runTestSuite(tcNames, ftNames, stNames, svNames):
     ########################################
     pytest.main(pytestAllureCommand) # Run test suite
     print "\"..\\..\\libs\\allure-commandline\\bin\\allure.bat\" generate %s -o %s/allure-report" %(reportPath, reportPath)
-    os.system("\"..\\..\\libs\\allure-commandline\\bin\\allure.bat\" generate %s -o %s/allure-report" %(reportPath, reportPath)) # Generate report
+#     os.system("\"..\\..\\libs\\allure-commandline\\bin\\allure.bat\" generate %s -o %s/allure-report" %(reportPath, reportPath)) # Generate report
     
 if __name__ == "__main__":
     if sys.stdin.isatty(): # running from command line
