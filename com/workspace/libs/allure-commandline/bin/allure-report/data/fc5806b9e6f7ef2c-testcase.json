@@ -1,0 +1,140 @@
+{
+  "uid" : "fc5806b9e6f7ef2c",
+  "name" : "Test_login_.test_tc003",
+  "title" : "Test tc 003",
+  "time" : {
+    "start" : 1461689865830,
+    "stop" : 1461689866993,
+    "duration" : 1163
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "Verify user can't login with empty username",
+    "url" : "Verify user can't login with empty username"
+  },
+  "suite" : {
+    "uid" : "72abe5fcdfa80478",
+    "name" : "com.workspace.project01.modules.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ {
+    "name" : "[INFO]\t1. Leave username blank",
+    "title" : "[INFO]\t1. Leave username blank",
+    "time" : {
+      "start" : 1461689865835,
+      "stop" : 1461689865835,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t2. Enter password",
+    "title" : "[INFO]\t2. Enter password",
+    "time" : {
+      "start" : 1461689865835,
+      "stop" : 1461689865835,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Click Login tton",
+    "title" : "[INFO]\t3. Click Login tton",
+    "time" : {
+      "start" : 1461689865835,
+      "stop" : 1461689865835,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Verify the 'Username and password do not match or you do not have an account yet.' error message is displayed",
+    "title" : "[INFO]\t3. Verify the 'Username and password do not match or you do not have an account yet.' error message is displayed",
+    "time" : {
+      "start" : 1461689866956,
+      "stop" : 1461689866956,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe error message 'Username and password do not match or you do not have an account yet.' is displayed",
+    "title" : "[PASSED]\tThe error message 'Username and password do not match or you do not have an account yet.' is displayed",
+    "time" : {
+      "start" : 1461689866992,
+      "stop" : 1461689866992,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "53165068-e8ab-4f61-9f57-2850e881c689-attachment.txt",
+    "type" : "text/plain",
+    "size" : 415,
+    "uid" : "97c0e3f5b1d0338c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "testId",
+    "value" : "Verify user can't login with empty username"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.modules.front_back.login_page.test_login_BU"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5748-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "BU"
+  } ],
+  "parameters" : [ ]
+}

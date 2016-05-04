@@ -1,0 +1,176 @@
+{
+  "uid" : "89d428ea80d02b8a",
+  "name" : "Test_login_.test_tc001",
+  "title" : "Test tc 001",
+  "time" : {
+    "start" : 1461689853495,
+    "stop" : 1461689864177,
+    "duration" : 10682
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "Verify user can't login with empty username and password",
+    "url" : "Verify user can't login with empty username and password"
+  },
+  "suite" : {
+    "uid" : "72abe5fcdfa80478",
+    "name" : "com.workspace.project01.modules.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ {
+    "name" : "[INFO]\tNavigate to Joomla Login page",
+    "title" : "[INFO]\tNavigate to Joomla Login page",
+    "time" : {
+      "start" : 1461689853500,
+      "stop" : 1461689853500,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tOpen browser successfully",
+    "title" : "[INFO]\tOpen browser successfully",
+    "time" : {
+      "start" : 1461689860122,
+      "stop" : 1461689860122,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tNavigate to http://localhost/joomla/administrator/ successfully",
+    "title" : "[INFO]\tNavigate to http://localhost/joomla/administrator/ successfully",
+    "time" : {
+      "start" : 1461689862999,
+      "stop" : 1461689862999,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t1. Leave username and password blank",
+    "title" : "[INFO]\t1. Leave username and password blank",
+    "time" : {
+      "start" : 1461689863000,
+      "stop" : 1461689863000,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t2. Click Login tton",
+    "title" : "[INFO]\t2. Click Login tton",
+    "time" : {
+      "start" : 1461689863000,
+      "stop" : 1461689863000,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Verify the 'Empty password not allowed' error message is displayed",
+    "title" : "[INFO]\t3. Verify the 'Empty password not allowed' error message is displayed",
+    "time" : {
+      "start" : 1461689864137,
+      "stop" : 1461689864137,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe error message 'Empty password not allowed' is displayed",
+    "title" : "[PASSED]\tThe error message 'Empty password not allowed' is displayed",
+    "time" : {
+      "start" : 1461689864177,
+      "stop" : 1461689864177,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "6e2a0bc0-40d3-430d-af7c-f068c2731e7b-attachment.txt",
+    "type" : "text/plain",
+    "size" : 201,
+    "uid" : "26bc7aa660e1fea7"
+  }, {
+    "title" : "Captured stdout call",
+    "source" : "4aa7cde7-babc-4c69-b281-f3e6ab6df834-attachment.txt",
+    "type" : "text/plain",
+    "size" : 297,
+    "uid" : "b47f8550c6637f6d"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.modules.front_back.login_page.test_login_BU"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5748-MainThread"
+  }, {
+    "name" : "testId",
+    "value" : "Verify user can't login with empty username and password"
+  }, {
+    "name" : "story",
+    "value" : "BU"
+  } ],
+  "parameters" : [ ]
+}

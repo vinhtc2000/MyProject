@@ -1,0 +1,155 @@
+{
+  "uid" : "e1a4df8d91df19b8",
+  "name" : "Test_login_UI.test_tc007",
+  "title" : "Test tc 007",
+  "time" : {
+    "start" : 1461689885162,
+    "stop" : 1461689885232,
+    "duration" : 70
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "Verify username textbox, password textbox and blanked as default",
+    "url" : "Verify username textbox, password textbox and blanked as default"
+  },
+  "suite" : {
+    "uid" : "a9ea577f4b16bac6",
+    "name" : "com.workspace.project01.modules.front_back.login_page.test_login_UI",
+    "title" : "Test login UI"
+  },
+  "steps" : [ {
+    "name" : "[INFO]\t1. Verify username textbox is blanked as default",
+    "title" : "[INFO]\t1. Verify username textbox is blanked as default",
+    "time" : {
+      "start" : 1461689885167,
+      "stop" : 1461689885167,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe username textbox is blanked",
+    "title" : "[PASSED]\tThe username textbox is blanked",
+    "time" : {
+      "start" : 1461689885199,
+      "stop" : 1461689885199,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t2. Verify password textbox is blanked as default",
+    "title" : "[INFO]\t2. Verify password textbox is blanked as default",
+    "time" : {
+      "start" : 1461689885200,
+      "stop" : 1461689885200,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe Password textbox is blanked",
+    "title" : "[PASSED]\tThe Password textbox is blanked",
+    "time" : {
+      "start" : 1461689885231,
+      "stop" : 1461689885232,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tClose Joomla page",
+    "title" : "[INFO]\tClose Joomla page",
+    "time" : {
+      "start" : 1461689885233,
+      "stop" : 1461689885233,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tBrowser is closed",
+    "title" : "[INFO]\tBrowser is closed",
+    "time" : {
+      "start" : 1461689885508,
+      "stop" : 1461689885509,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "6d6f7de4-d9d4-4bc9-b1e0-ea65e2fb0ea6-attachment.txt",
+    "type" : "text/plain",
+    "size" : 274,
+    "uid" : "67606fe0776a04c0"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.modules.front_back.login_page.test_login_UI"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "testId",
+    "value" : "Verify username textbox, password textbox and blanked as default"
+  }, {
+    "name" : "story",
+    "value" : "UI"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5748-MainThread"
+  } ],
+  "parameters" : [ ]
+}

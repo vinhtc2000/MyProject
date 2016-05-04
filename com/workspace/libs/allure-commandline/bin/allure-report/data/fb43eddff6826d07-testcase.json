@@ -1,0 +1,170 @@
+{
+  "uid" : "fb43eddff6826d07",
+  "name" : "Test_login_.test_tc005",
+  "title" : "Test tc 005",
+  "time" : {
+    "start" : 1461689868117,
+    "stop" : 1461689869951,
+    "duration" : 1834
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "Verify user can login with valid account",
+    "url" : "Verify user can login with valid account"
+  },
+  "suite" : {
+    "uid" : "72abe5fcdfa80478",
+    "name" : "com.workspace.project01.modules.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ {
+    "name" : "[INFO]\t1. Enter valid username",
+    "title" : "[INFO]\t1. Enter valid username",
+    "time" : {
+      "start" : 1461689868122,
+      "stop" : 1461689868123,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t2. Enter valid password",
+    "title" : "[INFO]\t2. Enter valid password",
+    "time" : {
+      "start" : 1461689868123,
+      "stop" : 1461689868123,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Click Login tton",
+    "title" : "[INFO]\t3. Click Login tton",
+    "time" : {
+      "start" : 1461689868123,
+      "stop" : 1461689868123,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Verify control panel page is displayed",
+    "title" : "[INFO]\t3. Verify control panel page is displayed",
+    "time" : {
+      "start" : 1461689869903,
+      "stop" : 1461689869903,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe Control Panel page is displayed",
+    "title" : "[PASSED]\tThe Control Panel page is displayed",
+    "time" : {
+      "start" : 1461689869950,
+      "stop" : 1461689869950,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tClose Joomla page",
+    "title" : "[INFO]\tClose Joomla page",
+    "time" : {
+      "start" : 1461689869952,
+      "stop" : 1461689869952,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tBrowser is closed",
+    "title" : "[INFO]\tBrowser is closed",
+    "time" : {
+      "start" : 1461689870295,
+      "stop" : 1461689870295,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "05ecb10a-9883-4591-bdfc-0c79b67cf9f0-attachment.txt",
+    "type" : "text/plain",
+    "size" : 283,
+    "uid" : "b343983bca0ba3ae"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "testId",
+    "value" : "Verify user can login with valid account"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.modules.front_back.login_page.test_login_BU"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5748-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "BU"
+  } ],
+  "parameters" : [ ]
+}

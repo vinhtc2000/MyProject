@@ -1,1 +1,3 @@
-{}
+{
+  "modules/front_back/login_page/test_login_BU.py::Test_login_::()::test_tc001": true
+}

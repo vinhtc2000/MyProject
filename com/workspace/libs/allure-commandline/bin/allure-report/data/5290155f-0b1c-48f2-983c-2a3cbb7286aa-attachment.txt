@@ -1,3 +1,0 @@
-2016-04-20 17:10:37	[INFO]	Navigate to Joomla Login page
-2016-04-20 17:10:44	[INFO]	Open browser successfully
-2016-04-20 17:10:47	[INFO]	Navigate to http://localhost/joomla/administrator/ successfully

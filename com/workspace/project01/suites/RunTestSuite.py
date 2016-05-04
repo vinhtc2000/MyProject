@@ -3,7 +3,6 @@ Created on Apr 23, 2016
 
 @author: ZinhVcoin
 '''
-
 import os, sys, getopt
 from time import gmtime, strftime
 import imp
@@ -32,6 +31,9 @@ if doesLibIsImported("allure") == False:
     if os.name == "nt": # Windows OS
         os.system("python -m pip install -U pytest_allure_adaptor==1.7.2") # Install pytest_allure_adaptor 2.9.0
     
+if doesLibIsImported("selenium") == False:
+    if os.name == "nt": # Windows OS
+        os.system("python -m pip install -U selenium") # Install selenium
 
 import pytest
 
@@ -121,7 +123,7 @@ def runTestSuite(tcNames, ftNames, stNames, svNames):
     # Running and collect results
     ########################################
     pytest.main(pytestAllureCommand) # Run test suite
-    
+    print "\"..\\..\\libs\\allure-commandline\\bin\\allure.bat\" generate %s -o %s/allure-report" %(reportPath, reportPath)
     os.system("\"..\\..\\libs\\allure-commandline\\bin\\allure.bat\" generate %s -o %s/allure-report" %(reportPath, reportPath)) # Generate report
     
 if __name__ == "__main__":

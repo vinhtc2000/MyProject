@@ -1,21 +1,21 @@
 {
   "time" : {
-    "start" : 1461252481519,
-    "stop" : 1461252492456,
-    "duration" : 10937
+    "start" : 1461689853495,
+    "stop" : 1461689885232,
+    "duration" : 31737
   },
   "testSuites" : [ {
-    "uid" : "851234e121120dc7",
-    "name" : "com.workspace.project01.module.front_back.login_page.test_login_BU",
+    "uid" : "72abe5fcdfa80478",
+    "name" : "com.workspace.project01.modules.front_back.login_page.test_login_BU",
     "title" : "Test login BU",
     "time" : {
-      "start" : 1461252481519,
-      "stop" : 1461252492456,
-      "duration" : 10937
+      "start" : 1461689853495,
+      "stop" : 1461689869951,
+      "duration" : 16456
     },
     "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 5,
+      "passed" : 5,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -23,15 +23,100 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "ac96d241aa80d3bb",
-      "name" : "Test_login_BU.test_tc001",
+      "uid" : "89d428ea80d02b8a",
+      "name" : "Test_login_.test_tc001",
       "title" : "Test tc 001",
       "time" : {
-        "start" : 1461252481519,
-        "stop" : 1461252492456,
-        "duration" : 10937
+        "start" : 1461689853495,
+        "stop" : 1461689864177,
+        "duration" : 10682
       },
       "severity" : "CRITICAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a09f74ec910a7144",
+      "name" : "Test_login_.test_tc002",
+      "title" : "Test tc 002",
+      "time" : {
+        "start" : 1461689864186,
+        "stop" : 1461689865816,
+        "duration" : 1630
+      },
+      "severity" : "CRITICAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "fc5806b9e6f7ef2c",
+      "name" : "Test_login_.test_tc003",
+      "title" : "Test tc 003",
+      "time" : {
+        "start" : 1461689865830,
+        "stop" : 1461689866993,
+        "duration" : 1163
+      },
+      "severity" : "CRITICAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c8946a8465669236",
+      "name" : "Test_login_.test_tc004",
+      "title" : "Test tc 004",
+      "time" : {
+        "start" : 1461689866997,
+        "stop" : 1461689868113,
+        "duration" : 1116
+      },
+      "severity" : "CRITICAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "fb43eddff6826d07",
+      "name" : "Test_login_.test_tc005",
+      "title" : "Test tc 005",
+      "time" : {
+        "start" : 1461689868117,
+        "stop" : 1461689869951,
+        "duration" : 1834
+      },
+      "severity" : "CRITICAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "a9ea577f4b16bac6",
+    "name" : "com.workspace.project01.modules.front_back.login_page.test_login_UI",
+    "title" : "Test login UI",
+    "time" : {
+      "start" : 1461689875298,
+      "stop" : 1461689885232,
+      "duration" : 9934
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "d9b408520cea2335",
+      "name" : "Test_login_UI.test_tc006",
+      "title" : "Test tc 006",
+      "time" : {
+        "start" : 1461689875298,
+        "stop" : 1461689885157,
+        "duration" : 9859
+      },
+      "severity" : "MINOR",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e1a4df8d91df19b8",
+      "name" : "Test_login_UI.test_tc007",
+      "title" : "Test tc 007",
+      "time" : {
+        "start" : 1461689885162,
+        "stop" : 1461689885232,
+        "duration" : 70
+      },
+      "severity" : "MINOR",
       "status" : "PASSED"
     } ]
   } ]

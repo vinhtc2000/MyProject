@@ -1,0 +1,4 @@
+2016-04-26 16:58:05	[INFO]	1. Verify username textbox is blanked as default
+2016-04-26 16:58:05	[PASSED]	The username textbox is blanked
+2016-04-26 16:58:05	[INFO]	2. Verify password textbox is blanked as default
+2016-04-26 16:58:05	[PASSED]	The Password textbox is blanked

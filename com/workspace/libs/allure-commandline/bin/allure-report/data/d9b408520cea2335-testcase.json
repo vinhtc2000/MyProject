@@ -1,0 +1,206 @@
+{
+  "uid" : "d9b408520cea2335",
+  "name" : "Test_login_UI.test_tc006",
+  "title" : "Test tc 006",
+  "time" : {
+    "start" : 1461689875298,
+    "stop" : 1461689885157,
+    "duration" : 9859
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 9
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "MINOR",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "Verify username textbox, password textbox and login button are displayed",
+    "url" : "Verify username textbox, password textbox and login button are displayed"
+  },
+  "suite" : {
+    "uid" : "a9ea577f4b16bac6",
+    "name" : "com.workspace.project01.modules.front_back.login_page.test_login_UI",
+    "title" : "Test login UI"
+  },
+  "steps" : [ {
+    "name" : "[INFO]\tNavigate to Joomla Login page",
+    "title" : "[INFO]\tNavigate to Joomla Login page",
+    "time" : {
+      "start" : 1461689875304,
+      "stop" : 1461689875304,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tOpen browser successfully",
+    "title" : "[INFO]\tOpen browser successfully",
+    "time" : {
+      "start" : 1461689881785,
+      "stop" : 1461689881785,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\tNavigate to http://localhost/joomla/administrator/ successfully",
+    "title" : "[INFO]\tNavigate to http://localhost/joomla/administrator/ successfully",
+    "time" : {
+      "start" : 1461689884979,
+      "stop" : 1461689884979,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t1. Verify username textbox is displayed",
+    "title" : "[INFO]\t1. Verify username textbox is displayed",
+    "time" : {
+      "start" : 1461689884980,
+      "stop" : 1461689884981,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe username textbox is displayed",
+    "title" : "[PASSED]\tThe username textbox is displayed",
+    "time" : {
+      "start" : 1461689885071,
+      "stop" : 1461689885071,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t2. Verify password textbox is displayed",
+    "title" : "[INFO]\t2. Verify password textbox is displayed",
+    "time" : {
+      "start" : 1461689885071,
+      "stop" : 1461689885071,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe Password textbox is displayed",
+    "title" : "[PASSED]\tThe Password textbox is displayed",
+    "time" : {
+      "start" : 1461689885117,
+      "stop" : 1461689885117,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Verify login button is displayed",
+    "title" : "[INFO]\t3. Verify login button is displayed",
+    "time" : {
+      "start" : 1461689885117,
+      "stop" : 1461689885118,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe Login button is displayed",
+    "title" : "[PASSED]\tThe Login button is displayed",
+    "time" : {
+      "start" : 1461689885156,
+      "stop" : 1461689885156,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout setup",
+    "source" : "0065a96f-b47e-4fc3-9963-0997556a6f17-attachment.txt",
+    "type" : "text/plain",
+    "size" : 201,
+    "uid" : "13d9c949df878dc0"
+  }, {
+    "title" : "Captured stdout call",
+    "source" : "61a9fafe-4fb0-48bc-8710-a3aaa5a8ed2f-attachment.txt",
+    "type" : "text/plain",
+    "size" : 382,
+    "uid" : "69d9122f3bcacf75"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.modules.front_back.login_page.test_login_UI"
+  }, {
+    "name" : "testId",
+    "value" : "Verify username textbox, password textbox and login button are displayed"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "story",
+    "value" : "UI"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5748-MainThread"
+  } ],
+  "parameters" : [ ]
+}

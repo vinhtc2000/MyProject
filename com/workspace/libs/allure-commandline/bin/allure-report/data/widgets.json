@@ -2,17 +2,17 @@
   "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
   "data" : [ {
     "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 7,
+      "passed" : 7,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
       "broken" : 0
     },
     "time" : {
-      "start" : 1461252481519,
-      "stop" : 1461252492456,
-      "duration" : 10937
+      "start" : 1461689853495,
+      "stop" : 1461689885232,
+      "duration" : 31737
     },
     "name" : "total",
     "type" : "TOTAL"
@@ -30,8 +30,18 @@
     "data" : [ {
       "title" : "Test login BU",
       "statistic" : {
-        "total" : 1,
-        "passed" : 1,
+        "total" : 5,
+        "passed" : 5,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Test login UI",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
@@ -44,8 +54,8 @@
     "data" : [ {
       "title" : "Login",
       "statistic" : {
-        "total" : 1,
-        "passed" : 1,
+        "total" : 7,
+        "passed" : 7,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,

@@ -1,0 +1,5 @@
+2016-04-26 16:57:47	[INFO]	1. Enter invalid username
+2016-04-26 16:57:47	[INFO]	2. Enter invalid password
+2016-04-26 16:57:47	[INFO]	3. Click Login tton
+2016-04-26 16:57:48	[INFO]	3. Verify the 'Username and password do not match or you do not have an account yet.' error message is displayed
+2016-04-26 16:57:48	[PASSED]	The error message 'Username and password do not match or you do not have an account yet.' is displayed

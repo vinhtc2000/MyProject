@@ -1,0 +1,6 @@
+2016-04-26 16:58:04	[INFO]	1. Verify username textbox is displayed
+2016-04-26 16:58:05	[PASSED]	The username textbox is displayed
+2016-04-26 16:58:05	[INFO]	2. Verify password textbox is displayed
+2016-04-26 16:58:05	[PASSED]	The Password textbox is displayed
+2016-04-26 16:58:05	[INFO]	3. Verify login button is displayed
+2016-04-26 16:58:05	[PASSED]	The Login button is displayed

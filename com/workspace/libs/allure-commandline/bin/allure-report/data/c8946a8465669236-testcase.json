@@ -1,0 +1,140 @@
+{
+  "uid" : "c8946a8465669236",
+  "name" : "Test_login_.test_tc004",
+  "title" : "Test tc 004",
+  "time" : {
+    "start" : 1461689866997,
+    "stop" : 1461689868113,
+    "duration" : 1116
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "\nCreated on Apr 15, 2016\n\n@author: ZinhVcoin\n",
+    "type" : "TEXT"
+  },
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "Verify user can't login with invalid account",
+    "url" : "Verify user can't login with invalid account"
+  },
+  "suite" : {
+    "uid" : "72abe5fcdfa80478",
+    "name" : "com.workspace.project01.modules.front_back.login_page.test_login_BU",
+    "title" : "Test login BU"
+  },
+  "steps" : [ {
+    "name" : "[INFO]\t1. Enter invalid username",
+    "title" : "[INFO]\t1. Enter invalid username",
+    "time" : {
+      "start" : 1461689867002,
+      "stop" : 1461689867002,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t2. Enter invalid password",
+    "title" : "[INFO]\t2. Enter invalid password",
+    "time" : {
+      "start" : 1461689867002,
+      "stop" : 1461689867002,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Click Login tton",
+    "title" : "[INFO]\t3. Click Login tton",
+    "time" : {
+      "start" : 1461689867002,
+      "stop" : 1461689867003,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[INFO]\t3. Verify the 'Username and password do not match or you do not have an account yet.' error message is displayed",
+    "title" : "[INFO]\t3. Verify the 'Username and password do not match or you do not have an account yet.' error message is displayed",
+    "time" : {
+      "start" : 1461689868057,
+      "stop" : 1461689868057,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "[PASSED]\tThe error message 'Username and password do not match or you do not have an account yet.' is displayed",
+    "title" : "[PASSED]\tThe error message 'Username and password do not match or you do not have an account yet.' is displayed",
+    "time" : {
+      "start" : 1461689868112,
+      "stop" : 1461689868113,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Captured stdout call",
+    "source" : "f6e4f3a4-a10e-46c0-86e1-412e00d7f6e7-attachment.txt",
+    "type" : "text/plain",
+    "size" : 425,
+    "uid" : "b3bfd027d44bc201"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "testId",
+    "value" : "Verify user can't login with invalid account"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.workspace.project01.modules.front_back.login_page.test_login_BU"
+  }, {
+    "name" : "host",
+    "value" : "ZinhVcoin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5748-MainThread"
+  }, {
+    "name" : "story",
+    "value" : "BU"
+  } ],
+  "parameters" : [ ]
+}
