@@ -123,7 +123,7 @@ def runTestSuite(tcNames, ftNames, stNames, svNames):
     # Running and collect results
     ########################################
     pytest.main(pytestAllureCommand) # Run test suite
-    print "\"..\\..\\libs\\allure-commandline\\bin\\allure.bat\" generate %s -o %s/allure-report" %(reportPath, reportPath)
+#     print "\"..\\..\\libs\\allure-commandline\\bin\\allure.bat\" generate %s -o %s/allure-report" %(reportPath, reportPath)
 #     os.system("\"..\\..\\libs\\allure-commandline\\bin\\allure.bat\" generate %s -o %s/allure-report" %(reportPath, reportPath)) # Generate report
     
 if __name__ == "__main__":
