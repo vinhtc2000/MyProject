@@ -29,7 +29,7 @@ if doesLibIsImported("pytest") == False:
 
 if doesLibIsImported("allure") == False:
     if os.name == "nt": # Windows OS
-        os.system("python -m pip install -U pytest_allure_adaptor==1.7.2") # Install pytest_allure_adaptor 2.9.0
+        os.system("python -m pip install -U pytest_allure_adaptor==1.7.7") # Install pytest_allure_adaptor 2.9.0
     
 if doesLibIsImported("selenium") == False:
     if os.name == "nt": # Windows OS
