@@ -26,7 +26,7 @@ class Config():
     cfShortTime = 20
     
     #
-    cfJoomlaURL = "http://localhost/joomla/administrator/"
+    cfJoomlaURL = "http://localhost/joomla25/administrator/"
     cfValidUsername = "admin"
     cfValidPassword = "admin"
     cfInvalidUsername = "invalidaccount"
