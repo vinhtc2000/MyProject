@@ -117,7 +117,7 @@ def runTestSuite(tcNames, ftNames, stNames, svNames):
     if svNames != "":
         svCommand = " --allure_severities=%s" % (svNames)
         
-    pytestAllureCommand =  "-v -r aP --color=auto -x ../modules --alluredir %s %s %s %s %s" % (reportPath, tcCommand, ftCommand, stCommand, svCommand)
+    pytestAllureCommand =  "--junitxml results.xml -v -r aP --color=auto -x ../modules --alluredir %s %s %s %s %s" % (reportPath, tcCommand, ftCommand, stCommand, svCommand)
     
     ########################################
     # Running and collect results
